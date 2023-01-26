@@ -147,7 +147,7 @@ body {
   position: absolute;
   top: 50%;
   color: white;
-  padding: 1rem 1rem;
+  padding: -1rem 1rem;
   z-index: 200;
   font-family: Arial, Helvetica, sans-serif;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(70%, black), to(transparent));
@@ -307,11 +307,6 @@ body {
   width: 30px;
   height: 2px;
   background-color: black;
-}
-
-.filter {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
 }
 
 .hope {
