@@ -1,0 +1,81 @@
+.browntxt{
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(205,33,29);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.text-trasp,.black-transp{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(12, 10, 10);
+}
+.black-transp{
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white
+    // background-color: red;
+}
+
+.tr-text{
+    color: transparent;
+    // text-shadow:white;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.01);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    // background-color: red;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__arrow{
+    display: none;
+    color: white;
+    top: 30%;
+    margin: auto;
+    .splide__arrow--next{
+        background-color: white;
+        right: 2rem;
+    }
+}
+.d{
+    background-color: red;
+    position: fixed;
+}
+.navDonate{
+    padding: .6rem 1rem;
+    gap: .4rem;
+    border: 2px solid white;
+    text-decoration: none;
+    color: rgb(205,33,29);
+    border-color: rgb(205,33,29);
+    a{
+        text-decoration: none;
+    }
+}
+.more-line{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+}
+section{
+    // padding-top: 3rem;
+}
+.filter{
+    filter: grayscale(100%);
+}

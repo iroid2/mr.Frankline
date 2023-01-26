@@ -1,0 +1,30 @@
+.volunteers{
+    padding-top: 2rem;
+    .top-volunteers{
+        text-align: center;
+    }
+    .bottom-volunteers{
+        width: 100%;
+        padding: 1rem 4rem;
+        gap: 2.4rem;
+        @media(max-width: 600px),(max-width: 400px){
+            flex-direction: column;
+        }
+        .volum-1{
+            width: 20%;
+            text-align: center;
+            @media(max-width: 600px),(max-width: 400px){
+                width: 100%;
+            }
+            img{
+                width: 100%;
+                @media(max-width: 600px),(max-width: 400px){
+                    height: 250px;
+                }
+            }
+            .name{
+                padding: 0;
+            }
+        }
+    }
+}

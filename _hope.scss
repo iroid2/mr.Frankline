@@ -1,0 +1,115 @@
+.hope{
+    padding-left: 2rem;
+    padding-top: 5rem;  
+    width: 100%;
+    gap: 1rem;
+    @media(max-width: 600px),(max-width: 400px){
+        padding-left: .5rem;
+        flex-direction: column;
+    }
+    .left-hope-sectn{
+        width: 100%;
+        @media(max-width: 600px),(max-width: 400px){
+            width: 100%;
+            flex-direction: column;
+        }
+        .more-title{
+            flex-direction: row;
+            gap: 2rem;
+            .more-line{
+                justify-items: center;
+            }
+        }
+        .options{
+            width: 100%;
+            gap: 1rem;
+            // background-color: red;
+            .left-optn{
+                width: 50%;
+                font-size: .5rem;
+                @media(max-width: 600px),(max-width: 400px){
+                    width: 98%;
+                }
+                .edu-option{
+                    font-size: .9rem;
+                    .icon-sectn{
+                        svg{
+                            width: 40px;
+                            height: 100%;
+                            // background-color: royalblue;
+                        }
+                    }
+                    .title{
+                        font-weight: bold;
+                    }
+                }
+            }
+            .right-optn{
+                width: 50%;
+                flex-direction: row;
+                @media(max-width: 600px),(max-width: 400px){
+                    width: 98%;
+                }
+            }
+        }
+    }
+    .right-hope-sectn{
+        width: 50%;
+        @media(max-width: 600px),(max-width: 400px){
+            width: 100%;
+            flex-direction: column;
+        }
+        .more-title{
+            flex-direction: row;
+            gap: 2rem;
+            .more-line{
+                justify-items: center;
+            }
+        }
+        .options{
+            width: 100%;
+            gap: 1rem;
+            // background-color: red;
+            .left-optn{
+                width: 50%;
+                font-size: .5rem;
+                @media(max-width: 600px),(max-width: 400px){
+                    width: 98%;
+                }
+                .edu-option{
+                    font-size: .9rem;
+                    .icon-sectn{
+                        svg{
+                            width: 40px;
+                            height: 100%;
+                            // background-color: royalblue;
+                        }
+                    }
+                    .title{
+                        font-weight: bold;
+                    }
+                }
+            }
+            .right-optn{
+                width: 50%;
+                font-size: .5rem;
+                @media(max-width: 600px),(max-width: 400px){
+                    width: 98%;
+                }
+                .edu-option{
+                    font-size: .9rem;
+                    .icon-sectn{
+                        svg{
+                            width: 40px;
+                            height: 100%;
+                            background-color: royalblue;
+                        }
+                    }
+                    .title{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
