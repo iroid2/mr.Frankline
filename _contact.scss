@@ -1,0 +1,115 @@
+.contact-us{
+    color: white;
+    width: 100%;
+    font-size: .9rem;
+    padding: 2rem 4rem;
+    background-color: black;
+    gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    @media(max-width: 600px),(max-width: 400px){
+        flex-direction: column;
+        padding: 2rem 1rem ; 
+    }
+    .abt-us{
+        width: 25%;
+        @media(max-width: 600px),(max-width: 400px){
+            width: 100%;
+        }
+        .contact-abt-title{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1rem 0;
+            .line{
+                width: 37px;
+                margin-top: .6rem;
+                height: 3px;
+                background-color: blue;
+            }
+            
+        }
+       
+    }
+    .contact{
+        // background-color: red;
+        flex-direction: column;
+        gap: .4rem;
+        margin-top: .7rem;
+        @media(max-width: 600px),(max-width: 400px){
+            width: 100%;
+        }
+
+    }
+    .our-proj{
+        width: 20%;
+        flex-direction: column;
+        gap: 1rem;
+        // background-color: blue;
+        @media(max-width: 600px),(max-width: 400px){
+            width: 100%;
+        }
+        .contact-abt-title{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1rem 0;
+            .line{
+                width: 37px;
+                margin-top: .6rem;
+                height: 3px;
+                background-color: rgb(238, 32, 180);
+            }
+        }
+        .proj-services{
+            width: 100%;
+            flex-direction: column;
+            gap: .5rem;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .quick-link{
+        width: 18%;
+        flex-direction: column;
+        gap: 1rem;
+        @media(max-width: 600px),(max-width: 400px){
+            width: 100%;
+        }
+        .contact-abt-title{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1rem 0;
+            @media(max-width: 600px),(max-width: 400px){
+                width: 100%;
+            }
+            .line{
+                width: 37px;
+                margin-top: .6rem;
+                height: 3px;
+                background-color: rgb(238, 32, 180);
+            }
+        }
+        .proj-services{
+            width: 100%;
+            flex-direction: column;
+            gap: .5rem;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .news-later{
+        gap: 1rem;
+        flex-direction: column;
+        .inputs{
+            input{
+                padding: 0rem 3rem;
+                height: 30px;
+            }
+            svg{
+                width: 70px;
+                height: 30px;  
+                background-color: blue;
+            }
+        }
+    }
+
+}

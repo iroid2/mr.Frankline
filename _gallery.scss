@@ -1,0 +1,81 @@
+// .gallery{
+//     h1{
+//         font-weight: normal;
+//         font-size: 35px;
+//         position: relative;
+//         margin: 40px 0;
+//     }
+//     h1::before{
+//         content: "";
+//         position: absolute;
+//         width: 100px;
+//         height: 3px;
+//         background-color: red;
+//         bottom: -10px;
+//         left: 50%;
+//         transform: translate(-50deg);
+//         animation: animate 4s linear infinite;
+//         @keyframes animate {
+//             0%{
+//                 width: 100px;
+//             }
+//             50%{
+//                 width: 200px;
+//             }
+//             100%{
+//                 width: 100px;
+//             }
+//         }
+//     }
+//     .container{
+//         width:100%;
+//         text-align: center;
+//        .top-content{
+//         background-color: rgb(200, 199, 199);
+//         width: 90%;
+//         margin: 0 auto 20px auto;
+//         display: flex;
+//         align-items: center;
+//         border-radius: 5px;
+//         box-shadow:3px 3px 5px rgb(87, 86, 86) ;
+//         h3{
+//             height: 100%;
+//             background-color: rgb(162, 167, 167);
+//             line-height: 0 50px;
+//             color: white;
+//         }
+//         label{
+//             display: inline-block;
+//             height: 100%;
+//             padding: 0 5px;
+//             margin: 0 20px;
+//             line-height: 60px;
+//             font-size: 18px;
+//             font-weight: bolder;
+//             color: gray;
+//             cursor: pointer;
+//             &:hover{
+//                 color: black;
+//             }
+//             .photo-gallery{
+//                 width: 90%;
+//                 margin: 0 auto;
+//                 display: grid;
+//                 grid-template-columns: repeat(4,1fr);
+//                grid-gap: 20px;
+//                .pic{
+//                 position: relative;
+//                 height: 230px;
+//             }
+//                 .pic img{
+//                 width: 100%;
+//                 height: 100%;
+//                 border-radius: 10px;
+//              }
+//             }
+            
+//         }
+//     }
+        
+//     }
+// }

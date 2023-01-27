@@ -24,3 +24,29 @@ var splide = new Splide( '.splide', {
       }
   }
 })
+
+let currentImage = 0;
+let images = document.querySelectorAll(".image-container img");
+let prevButton = document.querySelector("#prev-button");
+let nextButton = document.querySelector("#next-button");
+
+prevButton.addEventListener("click", function() {
+  currentImage--;
+  if (currentImage < 0) {
+    currentImage = images.length - 1;
+  }
+  updateGallery();
+});
+
+nextButton.addEventListener("click", function() {
+  currentImage++;
+  if (currentImage === images.length) {
+    currentImage = 0;
+  }
+  updateGallery();
+});
+
+function updateGallery() {
+  let imageContainer = document.querySelector(".image-container");
+  imageContainer.style.left = "-" + (currentImage * 25) + "%";
+}

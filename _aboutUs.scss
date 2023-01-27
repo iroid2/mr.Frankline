@@ -1,9 +1,9 @@
 .aboutUs{
     width: 100%;
-    padding: 2rem 2rem ;
-    // background-color: red;   
+    padding: 2rem 5rem ;  
     @media(max-width: 600px),(max-width: 400px){
         flex-direction: column;
+        padding: 2rem 1rem ; 
     }
     .left-about{
         width: 40%;
@@ -19,6 +19,11 @@
             width: 20%;
             color: black;
             padding: .5rem;
+            width: 100%;
+            font-weight: bold;
+            @media(max-width: 600px),(max-width: 400px){
+                width: 120px;
+            }
         }
     }
     .right-about{
